@@ -26,29 +26,40 @@ A process is quite simply put, a program in execution. It is a unit of activity 
 
 ## Question 5
 
-A process is quite simply put
+
 
 ## Question 6
 
-1) Support of modular programming: Programmers should be able to define program
-modules, and to create, destroy, and alter the size of modules dynamically.
+1) Support of modular programming: Programmers should be able to define program modules, and to create, destroy, and alter the size of modules dynamically.
 
-2) Process isolation: The OS must prevent independent processes from interfering
-with each other’s memory, both data and instructions.
+2) Process isolation: The OS must prevent independent processes from interfering with each other’s memory, both data and instructions.
 
-3) Long-term storage: Many application programs require means for storing
-information for extended periods of time, after the computer has been
-powered down.
+3) Long-term storage: Many application programs require means for storing information for extended periods of time, after the computer has been powered down.
 
-4) Automatic allocation and management: Programs should be dynamically
-allocated across the memory hierarchy as required. Allocation should be
-transparent to the programmer. Thus, the programmer is relieved of concerns
-relating to memory limitations, and the OS can achieve efficiency by assigning
-memory to jobs only as needed.
+4) Automatic allocation and management: Programs should be dynamically allocated across the memory hierarchy as required. Allocation should be transparent to the programmer. Thus, the programmer is relieved of concerns relating to memory limitations, and the OS can achieve efficiency by assigning memory to jobs only as needed.
 
-5) Protection and access control: Sharing of memory, at any level of the memory
-hierarchy, creates the potential for one program to address the memory space
-of another. This is desirable when sharing is needed by particular applications.
-At other times, it threatens the integrity of programs and even of the OS itself.
-The OS must allow portions of memory to be accessible in various ways by
-various users.
+5) Protection and access control: Sharing of memory, at any level of the memory hierarchy, creates the potential for one program to address the memory space of another. This is desirable when sharing is needed by particular applications. At other times, it threatens the integrity of programs and even of the OS itself. The OS must allow portions of memory to be accessible in various ways by various users.
+
+## Question 7
+
+A real address is a location in main memory where some information is being stored
+A virtual address is an address to 'page' in secondary storage where a simulation of main memory is being kept.
+
+## Question 8
+
+A scheduling technique wherein each process is alotted a certain amount of CPU time and then processes are executed in a circular queue fashion until all processes are complete.
+
+## Question 9
+
+A monolithic kernel includes scheduling, file system, networking, device drivers, memory management, and more. A microkernel architecture assigns only a few essential functions to the kernel such as address spaces, interprocess communication (IPC), and basic scheduling. All other processes are handled by processes called servers.
+
+
+## Question 10
+
+Multithreading is a technique in which a process, executing an application, is divided into threads that can run in parallel.
+
+
+## Question 11
+
+A real address is a location in main memory where some information is being stored
+A virtual address is an address to 'page' in secondary storage where a simulation of main memory is being kept.
